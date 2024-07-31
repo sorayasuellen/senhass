@@ -1,0 +1,86 @@
+@import url('htts:fonts.googleapis.com/css2?family=roboto+mono&display=swap');
+:root{
+    --branco:var(--branco)
+    --cor-de-fundo: #00162e;
+    --fundo-senha:#00244d;
+    --fundo-texto: #001e40;
+    --borda: #0075ff;
+    --roboto: 'roboto', sans-serif;
+    --roboto-mono: 'roboto-mono', monospace;
+}
+
+*{
+    font-weight: 400;
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
+}
+
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+
+}
+
+.titulo-secundario{
+font-size: 24;
+
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.conteudo-senha{
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
+#campo-senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--roboto-mono);
+    font-size: 40px;
+    width: 70%;
+}
+
+#campo-senha:focus{
+    outline: none;
+}
+
+.conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 32px;
+    padding: 24px;
+}
+
+.parametro-titulo{
+    font-family: var(--roboto-mono);
+    font-size: 28px;
+}
+
+.parametro-senha_titulo{
+    font-size: 24px;
+}
+
+.parametro-coluna_senha{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
